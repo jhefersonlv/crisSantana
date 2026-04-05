@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Cristiane Sant'Ana Beauty Hair | Cabeleireira Premium</title>
+  <meta name="description"
+    content="Cabeleireira profissional Cristiane Sant'Ana. Corte, coloração, mechas, tratamentos e penteados especiais. Agende seu horário pelo WhatsApp e transforme seus cabelos!" />
+  <meta name="keywords"
+    content="cabeleireira, beauty hair, corte feminino, coloração, mechas, balayage, tratamento capilar, penteado" />
+  <meta name="author" content="Cristiane Sant'Ana Beauty Hair" />
+
+  <!-- Open Graph (WhatsApp / redes sociais) -->
+  <meta property="og:title" content="Cristiane Sant'Ana Beauty Hair" />
+  <meta property="og:description"
+    content="Transforme seus cabelos com a expertise de Cristiane Sant'Ana. Agende agora!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/hero-bg.png" />
+
+  <!-- Favicon simples via SVG inline -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✂️</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- Linha dourada fixa no topo absoluto da página -->
+  <div class="nav-topbar" aria-hidden="true"></div>
+
+  <nav id="navbar" role="navigation" aria-label="Menu principal">
+
+    <div class="navbar-inner">
+
+      <!-- ESQUERDA: links de navegação -->
+      <ul class="nav-links-left" id="nav-links-left" role="list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li aria-hidden="true" class="nav-sep">◆</li>
+        <li><a href="#servicos">Serviços</a></li>
+      </ul>
+
+      <!-- CENTRO: logo ornamental -->
+      <a href="#" class="nav-logo" aria-label="Cristiane Sant'Ana Beauty Hair">
+        <div class="nav-logo-row">
+          <span class="nav-ornament" aria-hidden="true">✦</span>
+          <span class="nav-logo-main">Cristiane Sant'Ana</span>
+          <span class="nav-ornament" aria-hidden="true">✦</span>
+        </div>
+        <span class="nav-logo-sub">Beauty Hair · Desde 1996</span>
+      </a>
+
+      <!-- DIREITA: links + CTA -->
+      <div class="nav-right">
+        <ul class="nav-links-right" id="nav-links-right" role="list">
+          <li><a href="#depoimentos">Avaliações</a></li>
+          <li aria-hidden="true" class="nav-sep">◆</li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="#servicos" class="btn btn-gold nav-cta" id="nav-cta-btn" aria-label="Agendar agora">
+          Agendar ✦
+        </a>
+      </div>
+
+      <!-- Menu hambúrguer (mobile) -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- Painel lateral mobile -->
+  <div class="nav-mobile-panel" id="nav-mobile-panel" aria-label="Menu mobile">
+    <ul class="nav-mobile-links" role="list">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#depoimentos">Avaliações</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#servicos" class="btn btn-gold nav-mobile-cta" aria-label="Agendar agora">
+      Agendar Agora ✦
+    </a>
+  </div>
+
+  <!-- ======================================================
+       HERO — Layout editorial split-screen
+  ====================================================== -->
+  <section id="hero" aria-label="Apresentação" role="banner">
+
+    <!-- Fundo com overlay gradiente suave -->
+    <video class="hero-bg" aria-hidden="true" autoplay loop muted playsinline>\n
+      <source src="assets/img/video-bg.mp4" type="video/mp4" />\n
+    </video>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <!-- Partículas decorativas flutuantes -->
+    <div class="hero-particles" aria-hidden="true">
+      <span class="hero-particle"></span>
+      <span class="hero-particle"></span>
+      <span class="hero-particle"></span>
+      <span class="hero-particle"></span>
+      <span class="hero-particle"></span>
+    </div>
+
+    <div class="hero-inner">
+
+      <!-- COLUNA ESQUERDA: Texto -->
+      <div class="hero-content">
+
+        <!-- Tag de prêmio/confiança -->
+        <div class="hero-trust" aria-label="Indicador de confiança">
+          <div class="hero-trust-stars" aria-hidden="true">★★★★★</div>
+          <span>+500 clientes transformadas</span>
+        </div>
+
+        <!-- Badge especialidade -->
+        <div class="hero-badge" aria-label="Especialidade">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          Cabeleireira Premium &mdash; Mogi das Cruzes, SP
+        </div>
+
+        <!-- Título principal -->
+        <h1 class="hero-title">
+          Cabelos que
+          <span class="hero-title-line">contam <span class="highlight">histórias.</span></span>
+        </h1>
+
+        <!-- Linha dourada decorativa -->
+        <div class="hero-title-divider" aria-hidden="true"></div>
+
+        <!-- Tagline -->
+        <p class="hero-tagline">
+          &ldquo;Mais de 28 anos transformando olhares &mdash; um fio de cada vez.&rdquo;
+        </p>
+
+        <!-- Descrição -->
+        <p class="hero-description">
+          Especialista em coloração, cortes e tratamentos que devolvem
+          brilho, leveza e autoestima. Aqui, beleza é arte com propósito.
+        </p>
+
+        <!-- Botões CTA -->
+        <div class="hero-actions">
+          <a href="#servicos" class="btn btn-gold" id="hero-btn-servicos" aria-label="Ver serviços disponíveis">
+            Agendar Agora
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#sobre" class="btn btn-outline" id="hero-btn-sobre" aria-label="Conhecer a Cris">
+            Conhecer a Cris
+          </a>
+        </div>
+
+        <!-- Mini estatísticas -->
+        <div class="hero-stats" role="list" aria-label="Números da carreira">
+          <div class="hero-stat" role="listitem">
+            <span class="hero-stat-number">+28</span>
+            <span class="hero-stat-label">Anos de carreira</span>
+          </div>
+          <div class="hero-stat-sep" aria-hidden="true"></div>
+          <div class="hero-stat" role="listitem">
+            <span class="hero-stat-number">Desde</span>
+            <span class="hero-stat-label">1996 em Mogi/SP</span>
+          </div>
+          <div class="hero-stat-sep" aria-hidden="true"></div>
+          <div class="hero-stat" role="listitem">
+            <span class="hero-stat-number">100%</span>
+            <span class="hero-stat-label">Satisfação</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLUNA DIREITA: Foto com frame dourado -->
+      <div class="hero-photo-col" aria-hidden="true">
+        <div class="hero-photo-frame">
+          <div class="hero-photo-corner hero-photo-corner--tl"></div>
+          <div class="hero-photo-corner hero-photo-corner--tr"></div>
+          <div class="hero-photo-corner hero-photo-corner--bl"></div>
+          <div class="hero-photo-corner hero-photo-corner--br"></div>
+          <img src="assets/img/hero-img.jpg" alt="Cristiane Sant'Ana, cabeleireira profissional" class="hero-photo-img"
+            loading="eager" />
+          <!-- Etiqueta flutuante -->
+          <div class="hero-photo-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            Cristiane Sant'Ana
+          </div>
+        </div>
+        <!-- Elemento decorativo de fundo do frame -->
+        <div class="hero-photo-glow"></div>
+      </div>
+
+    </div><!-- /hero-inner -->
+
+    <!-- Indicador de rolagem -->
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Rolar</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 9l6 6 6-6" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       SOBRE A CRIS
+  ══════════════════════════════════════════════════ -->
+  <section id="sobre" aria-labelledby="titulo-sobre">
+    <div class="sobre-grid">
+
+      <!-- Foto da Cris -->
+      <div class="sobre-img-wrapper reveal">
+        <img src="assets/img/perfil-cris.jpg" alt="Cristiane Sant'Ana, cabeleireira profissional, em seu salão"
+          loading="lazy" />
+      </div>
+
+      <!-- Texto -->
+      <div class="sobre-text reveal">
+        <div class="sobre-tag">✦ Sobre mim</div>
+
+        <h2 class="section-title" id="titulo-sobre">
+          Desde 1996 cuidando<br />
+          <span class="gold-text">da sua beleza.</span>
+        </h2>
+
+        <div class="divider" aria-hidden="true"></div>
+
+        <p>
+          Sou a <strong>Cristiane Sant'Ana</strong>, cabeleireira há mais de 28 anos em
+          <strong>Mogi das Cruzes — SP</strong>. Nasci para transformar cabelos e autoestimas:
+          com cada corte, cada cor e cada tratamento, acredito que a mulher se reencontra
+          com a sua versão mais confiante e radiante.
+        </p>
+        <p>
+          Sou especialista formada pela renomada <strong>Rô Siqueira</strong> e também pela
+          mestra <strong>Gil Novaes</strong> — referências nacionais em corte feminino. Além
+          de atender no salão, <strong>ministro curso VIP de corte para mulheres</strong>,
+          compartilhando a técnica e o amor pela profissão.
+        </p>
+        <p>
+          Venha viver a experiência de um atendimento exclusivo, com os cuidados e a
+          atenção que você merece. Aqui, você sai mais linda — e mais ela.
+        </p>
+
+        <!-- Badges de especialidades -->
+        <div class="sobre-badges" role="list" aria-label="Especialidades">
+          <span class="badge" role="listitem">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            Form. Rô Siqueira
+          </span>
+          <span class="badge" role="listitem">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            Form. Gil Novaes
+          </span>
+          <span class="badge" role="listitem">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            Curso VIP de Corte
+          </span>
+          <span class="badge" role="listitem">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            Salão Desde 1996
+          </span>
+          <span class="badge" role="listitem">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            Mogi das Cruzes — SP
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       SERVIÇOS
+  ══════════════════════════════════════════════════ -->
+  <section id="servicos" aria-labelledby="titulo-servicos">
+    <h2 class="section-title reveal" id="titulo-servicos">
+      Nossos <span class="gold-text">Serviços</span>
+    </h2>
+    <div class="divider reveal" aria-hidden="true"></div>
+    <p class="section-subtitle reveal">
+      Cada procedimento é realizado com produtos premium e técnica especializada,
+      para resultados que duram e encantam.
+    </p>
+
+    <!-- Grid de serviços -->
+    <div class="services-grid" role="list" aria-label="Serviços disponíveis">
+
+      <!-- CARD 1 — Corte Feminino -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Corte Feminino">
+        <div class="service-card-img">
+          <img src="assets/img/services.jpg" alt="Resultado de corte feminino moderno em salão premium"
+            loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+          <span class="service-card-badge">Popular</span>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Corte Feminino</h3>
+          <p class="service-card-desc">
+            Corte personalizado de acordo com o formato do seu rosto,
+            estilo de vida e desejo pessoal.
+          </p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-corte" onclick="abrirModalUpsell('Corte Feminino')"
+              aria-label="Agendar Corte Feminino pelo WhatsApp">
+              Agendar
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 2 — Coloração -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Coloração Completa">
+        <div class="service-card-img">
+          <img src="assets/img/services.jpg" alt="Coloração capilar profissional com resultado dourado e caramelo"
+            loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+          <span class="service-card-badge">Destaque</span>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Coloração Completa</h3>
+          <p class="service-card-desc">
+            Coloração profissional com produtos de alta qualidade para
+            uma cor radiante, uniforme e duradoura.
+          </p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-coloracao"
+              onclick="abrirModalUpsell('Coloração Completa')" aria-label="Agendar Coloração pelo WhatsApp">
+              Agendar
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 3 — Escova Progressiva -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Escova Progressiva">
+        <div class="service-card-img">
+          <img src="assets/img/services.jpg" alt="Cabelo liso e brilhoso após escova progressiva profissional"
+            loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+          <span class="service-card-badge">Mais agendado</span>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Escova Progressiva</h3>
+          <p class="service-card-desc">
+            Alise, modele e reduza o volume dos seus fios com técnica
+            avançada e produtos de última geração.
+          </p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-escova"
+              onclick="abrirModalUpsell('Escova Progressiva / Definitiva')"
+              aria-label="Agendar Escova Progressiva pelo WhatsApp">
+              Agendar
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 4 — Tratamento Capilar -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Tratamento Capilar">
+        <div class="service-card-img">
+          <img src="assets/img/services.jpg" alt="Tratamento capilar intensivo com produtos premium dourados"
+            loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+          <span class="service-card-badge">Recomendado</span>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Tratamento Intensivo</h3>
+          <p class="service-card-desc">
+            Hidratação, nutrição e reconstrução profunda para fios
+            danificados, devolvendo brilho e maciez.
+          </p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-tratamento"
+              onclick="abrirModalUpsell('Tratamento Capilar Intensivo')"
+              aria-label="Agendar Tratamento Capilar pelo WhatsApp">
+              Agendar
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 5 — Mechas & Balayage -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Mechas e Balayage">
+        <div class="service-card-img">
+          <img src="assets/img/services.jpg" alt="Mechas e balayage platinado em salão premium" loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+          <span class="service-card-badge">Premium</span>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Mechas & Balayage</h3>
+          <p class="service-card-desc">
+            Técnicas de iluminação que criam movimento, dimensão e
+            um visual natural e deslumbrante nos seus cabelos.
+          </p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-mechas"
+              onclick="abrirModalUpsell('Mechas & Balayage')" aria-label="Agendar Mechas e Balayage pelo WhatsApp">
+              Agendar
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 6 — Penteado -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Penteado e Styling">
+        <div class="service-card-img">
+          <img src="assets/img/services.jpg" alt="Penteado e styling profissional para eventos e festas"
+            loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+          <span class="service-card-badge">Eventos</span>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Penteado & Styling</h3>
+          <p class="service-card-desc">
+            Penteados elegantes para casamentos, festas e ocasiões
+            especiais. Você merece arrasar em cada momento.
+          </p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-penteado"
+              onclick="abrirModalUpsell('Penteado & Styling')" aria-label="Agendar Penteado pelo WhatsApp">
+              Agendar
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /services-grid -->
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       DEPOIMENTOS
+  ══════════════════════════════════════════════════ -->
+
+  <section id="depoimentos" aria-labelledby="titulo-depoimentos">
+    <h2 class="section-title reveal" id="titulo-depoimentos">
+      O que dizem <span class="gold-text">minhas clientes</span>
+    </h2>
+    <div class="divider reveal" aria-hidden="true"></div>
+    <p class="section-subtitle reveal">
+      A melhor propaganda é o sorriso de quem saiu daqui se sentindo rainha.
+    </p>
+
+    <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <div class="elfsight-app-3d2937f4-556c-47db-9ddc-9ad31ef27b1b" data-elfsight-app-lazy></div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       CONTATO
+  ══════════════════════════════════════════════════ -->
+  <section id="contato" aria-labelledby="titulo-contato">
+    <h2 class="section-title reveal" id="titulo-contato">
+      Vamos <span class="gold-text">conversar?</span>
+    </h2>
+    <div class="divider reveal" aria-hidden="true"></div>
+    <p class="section-subtitle reveal">
+      Estou aqui para te atender com todo o cuidado que você merece.
+      Entre em contato e agende o seu horário!
+    </p>
+
+    <div class="contato-grid reveal">
+
+      <!-- Informações de contato -->
+      <div class="contato-info">
+        <h3>Informações</h3>
+
+        <div class="contato-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.84a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+          </svg>
+          <p>
+            <strong>WhatsApp</strong><br />
+            (11) 99726-0983
+          </p>
+        </div>
+
+        <a href="https://maps.app.goo.gl/xWRfkKYfWEsigntR8" target="_blank">
+          <div class="contato-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <p>
+              <strong>Endereço</strong><br />
+              R. Francisco Franco, 404 - Centro<br />
+              Mogi das Cruzes - SP, 08710-590
+            </p>
+          </div>
+        </a>
+
+        <div class="contato-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+          <p>
+            <strong>Horários</strong><br />
+            Segunda a Sábado: 9h às 19h<br />
+            Domingo: Fechado
+          </p>
+        </div>
+
+        <a href="https://www.instagram.com/crisbeauty_hair/" target="_blank">
+          <div class="contato-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+            <p>
+              <strong>Instagram</strong><br />
+              @cris.beautyhair
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Box de agendamento via WhatsApp -->
+      <div class="contato-whatsapp-box">
+        <div class="modal-icon" aria-hidden="true">✨</div>
+        <h3>Agende seu horário agora</h3>
+        <p>
+          Clique no botão abaixo e fale comigo diretamente pelo WhatsApp.
+          Respondo rapidinho! 🌟
+        </p>
+        <button class="btn btn-gold" id="contato-btn-whatsapp"
+          onclick="abrirWhatsApp('Olá Cris! 😊 Vim pelo site e quero agendar um horário. Pode me ajudar?')"
+          aria-label="Abrir conversa no WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12c0 2.096.536 4.142 1.556 5.956L.057 23.882a.566.566 0 00.68.68l5.926-1.499A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.044-1.395l-.361-.214-3.516.889.905-3.426-.234-.372A9.818 9.818 0 1112 21.818z" />
+          </svg>
+          Falar pelo WhatsApp
+        </button>
+      </div>
+
+    </div><!-- /contato-grid -->
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="footer-logo">Cristiane Sant'Ana Beauty Hair ✦</div>
+
+    <p class="footer-copy">
+      © 2025 Cristiane Sant'Ana. Todos os direitos reservados.
+    </p>
+
+    <div class="footer-social" role="list" aria-label="Redes sociais">
+      <a href="#" class="social-btn" role="listitem" aria-label="Instagram da Cristiane" title="Instagram">
+        <!-- Ícone Instagram -->
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+          <circle cx="12" cy="12" r="4" />
+          <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+        </svg>
+      </a>
+      <a href="#" class="social-btn" role="listitem" aria-label="WhatsApp da Cristiane" title="WhatsApp"
+        onclick="abrirWhatsApp('Olá Cris! 😊 Vim pelo site.')">
+        <!-- Ícone WhatsApp -->
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.096.536 4.142 1.556 5.956L.057 23.882a.566.566 0 00.68.68l5.926-1.499A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.044-1.395l-.361-.214-3.516.889.905-3.426-.234-.372A9.818 9.818 0 1112 21.818z" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════
+       MODAL DE UP-SELL (AGENDAMENTO)
+  ══════════════════════════════════════════════════ -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-titulo"
+    aria-hidden="true">
+    <div class="modal">
+
+      <!-- Botão fechar (X) -->
+      <button class="modal-close" id="modal-close-btn" onclick="fecharModal()" aria-label="Fechar modal"
+        title="Fechar">✕</button>
+
+      <!-- Ícone decorativo -->
+      <div class="modal-icon" aria-hidden="true">✨</div>
+
+      <!-- Título -->
+      <h2 id="modal-titulo">Aproveite mais enquanto está aqui!</h2>
+
+      <!-- Serviço escolhido em destaque -->
+      <p>
+        Você selecionou:
+        <span class="modal-service-highlight" id="modal-servico-nome">—</span>
+      </p>
+
+      <!-- Pergunta de up-sell -->
+      <p>
+        Que tal <strong style="color: var(--gold)">combinar mais um procedimento</strong>
+        e ganhar um <strong>desconto especial</strong>? Aproveite para sair ainda mais
+        linda de uma só vez! 💛
+      </p>
+
+      <!-- Botões principais -->
+      <div class="modal-actions" id="modal-btns-principais">
+        <button class="btn btn-ghost" id="modal-btn-nao" onclick="agendarDireto()"
+          aria-label="Agendar somente o serviço selecionado">
+          Não, só este mesmo
+        </button>
+        <button class="btn btn-gold" id="modal-btn-sim" onclick="abrirAreaPersonalizar()"
+          aria-label="Sim, quero ver mais serviços com desconto">
+          ✦ Sim, quero desconto!
+        </button>
+      </div>
+
+      <!-- ─── ÁREA DE PERSONALIZAÇÃO (oculta inicialmente) ─── -->
+      <div id="personalizar-area" aria-live="polite">
+        <div class="personalizar-box">
+
+          <p class="personalizar-title">
+            ✦ Selecione os serviços para o seu pacote:
+          </p>
+
+          <!-- Checklist gerado dinamicamente pelo script.js -->
+          <ul class="checkbox-list" id="checklist-servicos" role="group" aria-label="Lista de serviços para selecionar">
+          </ul>
+
+          <!-- Aviso de desconto -->
+          <div class="personalizar-discount" role="note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+            Ao combinar 2 ou mais serviços, você ganha um desconto especial!
+          </div>
+
+          <!-- Botão finalizar -->
+          <div style="margin-top: 1.25rem;">
+            <button class="btn btn-gold" id="btn-finalizar" onclick="finalizarAgendamento()"
+              style="width: 100%; justify-content: center;"
+              aria-label="Finalizar e abrir WhatsApp com todos os serviços selecionados">
+              🚀 Finalizar Agendamento pelo WhatsApp
+            </button>
+          </div>
+
+        </div><!-- /personalizar-box -->
+      </div><!-- /personalizar-area -->
+
+    </div><!-- /modal -->
+  </div><!-- /modal-overlay -->
+
+  <!-- ══════════════════════════════════════════════════
+       BOTÃO FLUTUANTE WHATSAPP
+  ══════════════════════════════════════════════════ -->
+  <button id="whatsapp-float" aria-label="Falar com a Cris pelo WhatsApp agora" title="Falar pelo WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.096.536 4.142 1.556 5.956L.057 23.882a.566.566 0 00.68.68l5.926-1.499A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.044-1.395l-.361-.214-3.516.889.905-3.426-.234-.372A9.818 9.818 0 1112 21.818z" />
+    </svg>
+  </button>
+
+  <!-- Script principal -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
