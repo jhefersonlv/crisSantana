@@ -20,17 +20,10 @@ const WHATSAPP_NUMBER = "5511997260983"; // 🔧 Substitua pelo número real!
  * Adicione ou remova serviços aqui conforme necessário.
  */
 const SERVICOS_DISPONIVEIS = [
-  "Mechas",
-  "Corte e luzes",
-  "Progressiva",
-  "Corte e coloração",
-  "Chanel Nuca Perfeita",
-  "Corte Camadas",
-  "Chanel sem bico",
-  "Pixie Cut",
-  "Mini butterfly",
-  "Butterfly",
-  "Chanel",
+  "Coloração",
+  "Hidratação",
+  "Escova",
+  "Reconstrução",
 ];
 
 // ─── ESTADO DA APLICAÇÃO ────────────────────────────────────────
@@ -150,19 +143,26 @@ function fecharAreaPersonalizar() {
  * e gera o link do WhatsApp com os serviços selecionados.
  */
 function finalizarAgendamento() {
-  // Coleta todos os checkboxes marcados
+  // Coleta todos os checkboxes marcados (serviços extras)
   const checkboxesMarcados = document.querySelectorAll(
     ".servico-checkbox:checked"
   );
 
-  // Extrai os valores (nomes dos serviços)
-  const servicosSelecionados = Array.from(checkboxesMarcados).map(
-    (cb) => cb.value
-  );
+  const servicosExtras = Array.from(checkboxesMarcados).map((cb) => cb.value);
+
+  // A lista final inicializa sempre com o serviço principal selecionado pelo card
+  let servicosSelecionados = [servicoSelecionado];
+
+  // Adiciona os serviços extras, evitando duplicação caso algum deles possua o mesmo nome
+  servicosExtras.forEach((s) => {
+    if (s !== servicoSelecionado) {
+      servicosSelecionados.push(s);
+    }
+  });
 
   // Garante que pelo menos um serviço foi selecionado
   if (servicosSelecionados.length === 0) {
-    // Feedback visual: destaca a área de seleção
+    // Feedback visual (não deve acontecer pois sempre temos o principal)
     const box = document.querySelector(".personalizar-box");
     box.style.borderColor = "var(--gold)";
     box.style.boxShadow = "0 0 15px rgba(212, 175, 55, 0.3)";
@@ -170,7 +170,7 @@ function finalizarAgendamento() {
       box.style.borderColor = "";
       box.style.boxShadow = "";
     }, 1500);
-    return; // Não prossegue sem seleção
+    return;
   }
 
   // ─── Monta a mensagem concatenada ───────────────────────────
