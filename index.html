@@ -112,11 +112,11 @@
       <!-- COLUNA ESQUERDA: Texto -->
       <div class="hero-content">
 
-        <!-- Tag de prêmio/confiança -->
+        <!-- Tag de prêmio/confiança 
         <div class="hero-trust" aria-label="Indicador de confiança">
           <div class="hero-trust-stars" aria-hidden="true">★★★★★</div>
           <span>+500 clientes transformadas</span>
-        </div>
+        </div> -->
 
         <!-- Badge especialidade -->
         <div class="hero-badge" aria-label="Especialidade">
@@ -163,13 +163,13 @@
         <!-- Mini estatísticas -->
         <div class="hero-stats" role="list" aria-label="Números da carreira">
           <div class="hero-stat" role="listitem">
-            <span class="hero-stat-number">+28</span>
+            <span class="hero-stat-number">+21</span>
             <span class="hero-stat-label">Anos de carreira</span>
           </div>
           <div class="hero-stat-sep" aria-hidden="true"></div>
           <div class="hero-stat" role="listitem">
             <span class="hero-stat-number">Desde</span>
-            <span class="hero-stat-label">1996 em Mogi/SP</span>
+            <span class="hero-stat-label">2005 em Mogi/SP</span>
           </div>
           <div class="hero-stat-sep" aria-hidden="true"></div>
           <div class="hero-stat" role="listitem">
@@ -219,7 +219,7 @@
 
       <!-- Foto da Cris -->
       <div class="sobre-img-wrapper reveal">
-        <img src="assets/img/perfil-cris.jpg" alt="Cristiane Sant'Ana, cabeleireira profissional, em seu salão"
+        <img src="assets/img/perfil-cris.jpeg" alt="Cristiane Sant'Ana, cabeleireira profissional, em seu salão"
           loading="lazy" />
       </div>
 
@@ -228,7 +228,7 @@
         <div class="sobre-tag">✦ Sobre mim</div>
 
         <h2 class="section-title" id="titulo-sobre">
-          Desde 1996 cuidando<br />
+          Desde 2005 cuidando<br />
           <span class="gold-text">da sua beleza.</span>
         </h2>
 
@@ -275,7 +275,7 @@
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
-            Salão Desde 1996
+            Salão Desde 2005
           </span>
           <span class="badge" role="listitem">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
@@ -305,147 +305,243 @@
     <!-- Grid de serviços -->
     <div class="services-grid" role="list" aria-label="Serviços disponíveis">
 
-      <!-- CARD 1 — Corte Feminino -->
-      <article class="service-card reveal" role="listitem" aria-label="Serviço: Corte Feminino">
-        <div class="service-card-img">
-          <img src="assets/img/services.jpg" alt="Resultado de corte feminino moderno em salão premium"
-            loading="lazy" />
-          <div class="service-card-img-overlay" aria-hidden="true"></div>
-          <span class="service-card-badge">Popular</span>
-        </div>
-        <div class="service-card-body">
-          <h3 class="service-card-name">Corte Feminino</h3>
-          <p class="service-card-desc">
-            Corte personalizado de acordo com o formato do seu rosto,
-            estilo de vida e desejo pessoal.
-          </p>
-          <div class="service-card-footer">
-            <span class="service-price">Consultar valor</span>
-            <button class="btn btn-gold btn-agendar" id="btn-agendar-corte" onclick="abrirModalUpsell('Corte Feminino')"
-              aria-label="Agendar Corte Feminino pelo WhatsApp">
-              Agendar
-            </button>
+      <!-- CARD 1 — Mechas -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Mechas">
+        <div class="service-card-img split-view">
+          <div class="split-item">
+            <img src="assets/img/mechas_antes.jpeg" alt="Mechas Antes" loading="lazy" />
+            <span class="split-label">Antes</span>
           </div>
-        </div>
-      </article>
-
-      <!-- CARD 2 — Coloração -->
-      <article class="service-card reveal" role="listitem" aria-label="Serviço: Coloração Completa">
-        <div class="service-card-img">
-          <img src="assets/img/services.jpg" alt="Coloração capilar profissional com resultado dourado e caramelo"
-            loading="lazy" />
+          <div class="split-item">
+            <img src="assets/img/mechas_depois.jpeg" alt="Mechas Depois" loading="lazy" />
+            <span class="split-label">Depois</span>
+          </div>
           <div class="service-card-img-overlay" aria-hidden="true"></div>
           <span class="service-card-badge">Destaque</span>
         </div>
         <div class="service-card-body">
-          <h3 class="service-card-name">Coloração Completa</h3>
-          <p class="service-card-desc">
-            Coloração profissional com produtos de alta qualidade para
-            uma cor radiante, uniforme e duradoura.
-          </p>
+          <h3 class="service-card-name">Mechas</h3>
+          <p class="service-card-desc">Técnicas de iluminação e dimensão para um visual deslumbrante e natural.</p>
           <div class="service-card-footer">
             <span class="service-price">Consultar valor</span>
-            <button class="btn btn-gold btn-agendar" id="btn-agendar-coloracao"
-              onclick="abrirModalUpsell('Coloração Completa')" aria-label="Agendar Coloração pelo WhatsApp">
-              Agendar
-            </button>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-mechas" onclick="abrirModalUpsell('Mechas')"
+              aria-label="Agendar Mechas pelo WhatsApp">Agendar</button>
           </div>
         </div>
       </article>
 
-      <!-- CARD 3 — Escova Progressiva -->
-      <article class="service-card reveal" role="listitem" aria-label="Serviço: Escova Progressiva">
-        <div class="service-card-img">
-          <img src="assets/img/services.jpg" alt="Cabelo liso e brilhoso após escova progressiva profissional"
-            loading="lazy" />
+      <!-- CARD 2 — Corte e luzes -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Corte e luzes">
+        <div class="service-card-img split-view">
+          <div class="split-item">
+            <img src="assets/img/corte_e_luzes_antes.jpeg" alt="Corte e luzes Antes" loading="lazy" />
+            <span class="split-label">Antes</span>
+          </div>
+          <div class="split-item">
+            <img src="assets/img/corte_e_luzes_depois.jpeg" alt="Corte e luzes Depois" loading="lazy" />
+            <span class="split-label">Depois</span>
+          </div>
           <div class="service-card-img-overlay" aria-hidden="true"></div>
-          <span class="service-card-badge">Mais agendado</span>
         </div>
         <div class="service-card-body">
-          <h3 class="service-card-name">Escova Progressiva</h3>
-          <p class="service-card-desc">
-            Alise, modele e reduza o volume dos seus fios com técnica
-            avançada e produtos de última geração.
-          </p>
+          <h3 class="service-card-name">Corte e Luzes</h3>
+          <p class="service-card-desc">Renovação completa com corte moderno e luzes para valorizar seu rosto.</p>
           <div class="service-card-footer">
             <span class="service-price">Consultar valor</span>
-            <button class="btn btn-gold btn-agendar" id="btn-agendar-escova"
-              onclick="abrirModalUpsell('Escova Progressiva / Definitiva')"
-              aria-label="Agendar Escova Progressiva pelo WhatsApp">
-              Agendar
-            </button>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-corte-luzes"
+              onclick="abrirModalUpsell('Corte e luzes')"
+              aria-label="Agendar Corte e luzes pelo WhatsApp">Agendar</button>
           </div>
         </div>
       </article>
 
-      <!-- CARD 4 — Tratamento Capilar -->
-      <article class="service-card reveal" role="listitem" aria-label="Serviço: Tratamento Capilar">
-        <div class="service-card-img">
-          <img src="assets/img/services.jpg" alt="Tratamento capilar intensivo com produtos premium dourados"
-            loading="lazy" />
+      <!-- CARD 3 — Progressiva -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Progressiva">
+        <div class="service-card-img split-view">
+          <div class="split-item">
+            <img src="assets/img/progressiva_antes.jpeg" alt="Progressiva Antes" loading="lazy" />
+            <span class="split-label">Antes</span>
+          </div>
+          <div class="split-item">
+            <img src="assets/img/progressiva_depois.jpeg" alt="Progressiva Depois" loading="lazy" />
+            <span class="split-label">Depois</span>
+          </div>
           <div class="service-card-img-overlay" aria-hidden="true"></div>
-          <span class="service-card-badge">Recomendado</span>
+          <span class="service-card-badge">Mais pedido</span>
         </div>
         <div class="service-card-body">
-          <h3 class="service-card-name">Tratamento Intensivo</h3>
-          <p class="service-card-desc">
-            Hidratação, nutrição e reconstrução profunda para fios
-            danificados, devolvendo brilho e maciez.
-          </p>
+          <h3 class="service-card-name">Progressiva</h3>
+          <p class="service-card-desc">Fios perfeitamente alinhados, sem frizz e com brilho intenso por muito mais
+            tempo.</p>
           <div class="service-card-footer">
             <span class="service-price">Consultar valor</span>
-            <button class="btn btn-gold btn-agendar" id="btn-agendar-tratamento"
-              onclick="abrirModalUpsell('Tratamento Capilar Intensivo')"
-              aria-label="Agendar Tratamento Capilar pelo WhatsApp">
-              Agendar
-            </button>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-progressiva"
+              onclick="abrirModalUpsell('Progressiva')" aria-label="Agendar Progressiva pelo WhatsApp">Agendar</button>
           </div>
         </div>
       </article>
 
-      <!-- CARD 5 — Mechas & Balayage -->
-      <article class="service-card reveal" role="listitem" aria-label="Serviço: Mechas e Balayage">
-        <div class="service-card-img">
-          <img src="assets/img/services.jpg" alt="Mechas e balayage platinado em salão premium" loading="lazy" />
+      <!-- CARD 4 — Corte e coloração -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Corte e coloração">
+        <div class="service-card-img split-view">
+          <div class="split-item">
+            <img src="assets/img/corte_e_coloracao_antes.jpeg" alt="Corte e coloração Antes" loading="lazy" />
+            <span class="split-label">Antes</span>
+          </div>
+          <div class="split-item">
+            <img src="assets/img/corte_e_coloracao_depois.jpeg" alt="Corte e coloração Depois" loading="lazy" />
+            <span class="split-label">Depois</span>
+          </div>
           <div class="service-card-img-overlay" aria-hidden="true"></div>
-          <span class="service-card-badge">Premium</span>
         </div>
         <div class="service-card-body">
-          <h3 class="service-card-name">Mechas & Balayage</h3>
-          <p class="service-card-desc">
-            Técnicas de iluminação que criam movimento, dimensão e
-            um visual natural e deslumbrante nos seus cabelos.
-          </p>
+          <h3 class="service-card-name">Corte e Coloração</h3>
+          <p class="service-card-desc">Transformação total: corte personalizado acompanhado de uma cor radiante.</p>
           <div class="service-card-footer">
             <span class="service-price">Consultar valor</span>
-            <button class="btn btn-gold btn-agendar" id="btn-agendar-mechas"
-              onclick="abrirModalUpsell('Mechas & Balayage')" aria-label="Agendar Mechas e Balayage pelo WhatsApp">
-              Agendar
-            </button>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-corte-coloracao"
+              onclick="abrirModalUpsell('Corte e coloração')"
+              aria-label="Agendar Corte e coloração pelo WhatsApp">Agendar</button>
           </div>
         </div>
       </article>
 
-      <!-- CARD 6 — Penteado -->
-      <article class="service-card reveal" role="listitem" aria-label="Serviço: Penteado e Styling">
+      <!-- CARD 5 — Chanel Nuca Perfeita -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Chanel Nuca Perfeita">
         <div class="service-card-img">
-          <img src="assets/img/services.jpg" alt="Penteado e styling profissional para eventos e festas"
-            loading="lazy" />
+          <img src="assets/img/chanel_nuca_perfeita.jpeg" alt="Chanel Nuca Perfeita" loading="lazy" />
           <div class="service-card-img-overlay" aria-hidden="true"></div>
-          <span class="service-card-badge">Eventos</span>
+          <span class="service-card-badge">Especialidade</span>
         </div>
         <div class="service-card-body">
-          <h3 class="service-card-name">Penteado & Styling</h3>
-          <p class="service-card-desc">
-            Penteados elegantes para casamentos, festas e ocasiões
-            especiais. Você merece arrasar em cada momento.
-          </p>
+          <h3 class="service-card-name">Chanel Nuca Perfeita</h3>
+          <p class="service-card-desc">Um clássico reinventado, com acabamento impecável e estrutura sob medida.</p>
           <div class="service-card-footer">
             <span class="service-price">Consultar valor</span>
-            <button class="btn btn-gold btn-agendar" id="btn-agendar-penteado"
-              onclick="abrirModalUpsell('Penteado & Styling')" aria-label="Agendar Penteado pelo WhatsApp">
-              Agendar
-            </button>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-nuca-perfeita"
+              onclick="abrirModalUpsell('Chanel Nuca Perfeita')"
+              aria-label="Agendar Chanel Nuca Perfeita pelo WhatsApp">Agendar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 6 — Corte Camadas -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Corte Camadas">
+        <div class="service-card-img">
+          <img src="assets/img/corte_camadas.jpeg" alt="Corte Camadas" loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Corte Camadas</h3>
+          <p class="service-card-desc">Um corte que traz movimento, leveza e valoriza o caimento natural dos fios.</p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-camadas"
+              onclick="abrirModalUpsell('Corte Camadas')"
+              aria-label="Agendar Corte Camadas pelo WhatsApp">Agendar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 7 — Chanel sem bico -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Chanel sem bico">
+        <div class="service-card-img split-view">
+          <div class="split-item">
+            <img src="assets/img/chanel_sem_bico_antes.jpeg" alt="Chanel sem bico Antes" loading="lazy" />
+            <span class="split-label">Antes</span>
+          </div>
+          <div class="split-item">
+            <img src="assets/img/chanel_sem_bico_depois.jpeg" alt="Chanel sem bico Depois" loading="lazy" />
+            <span class="split-label">Depois</span>
+          </div>
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Chanel sem bico</h3>
+          <p class="service-card-desc">Estilo atemporal, reto e elegante, garantindo um visual polido e alinhado.</p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-chanel-sem-bico"
+              onclick="abrirModalUpsell('Chanel sem bico')"
+              aria-label="Agendar Chanel sem bico pelo WhatsApp">Agendar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 8 — Pixie Cut -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Pixie Cut">
+        <div class="service-card-img">
+          <img src="assets/img/pixie_cut.jpeg" alt="Pixie Cut" loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Pixie Cut</h3>
+          <p class="service-card-desc">O corte curto, ousado e cheio de atitude para mulheres práticas e de muita
+            personalidade.</p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-pixie-cut" onclick="abrirModalUpsell('Pixie Cut')"
+              aria-label="Agendar Pixie Cut pelo WhatsApp">Agendar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 9 — Mini butterfly -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Mini butterfly">
+        <div class="service-card-img">
+          <img src="assets/img/mini_butterfly.jpeg" alt="Mini butterfly" loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Mini Butterfly</h3>
+          <p class="service-card-desc">A versão sofisticada e curta do corte tendência que encanta por onde passa.</p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-mini-butterfly"
+              onclick="abrirModalUpsell('Mini butterfly')"
+              aria-label="Agendar Mini butterfly pelo WhatsApp">Agendar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 10 — Butterfly -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Butterfly">
+        <div class="service-card-img">
+          <img src="assets/img/butterfly.jpeg" alt="Butterfly" loading="lazy" />
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+          <span class="service-card-badge">Tendência</span>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Butterfly</h3>
+          <p class="service-card-desc">Camadas fluidas e rosto emoldurado. Efeito de volume maravilhoso e marcante.</p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-butterfly" onclick="abrirModalUpsell('Butterfly')"
+              aria-label="Agendar Butterfly pelo WhatsApp">Agendar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 11 — Chanel -->
+      <article class="service-card reveal" role="listitem" aria-label="Serviço: Chanel">
+        <div class="service-card-img split-view">
+          <div class="split-item">
+            <img src="assets/img/chanel_antes.jpeg" alt="Chanel sem bico Antes" loading="lazy" />
+            <span class="split-label">Antes</span>
+          </div>
+          <div class="split-item">
+            <img src="assets/img/chanel_depois.jpeg" alt="Chanel sem bico Depois" loading="lazy" />
+            <span class="split-label">Depois</span>
+          </div>
+          <div class="service-card-img-overlay" aria-hidden="true"></div>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-card-name">Chanel</h3>
+          <p class="service-card-desc">Corte icônico e elegante, perfeitamente alinhado para qualquer ocasião.</p>
+          <div class="service-card-footer">
+            <span class="service-price">Consultar valor</span>
+            <button class="btn btn-gold btn-agendar" id="btn-agendar-chanel" onclick="abrirModalUpsell('Chanel')"
+              aria-label="Agendar Chanel pelo WhatsApp">Agendar</button>
           </div>
         </div>
       </article>
@@ -481,6 +577,24 @@
         </p>
         <a class="btn btn-outline" href="https://pay.kiwify.com.br/PkoTgPN" target="_blank"
           style="margin-top: auto;">Inscreva-se aqui</a>
+      </article>
+
+      <!-- Curso VIP para cabeleireiras mulheres -->
+      <article class="curso-box">
+        <div class="curso-box-img">
+          <img src="assets/img/curso03.jpeg" alt="Curso VIP para cabeleireiras mulheres" loading="lazy" />
+        </div>
+        <h3 class="curso-box-title">Curso VIP para cabeleireiras mulheres</h3>
+        <div class="curso-box-tag">Curso Online/Presencial</div>
+        <p class="curso-box-desc">
+          <strong>Praticidade:</strong> O método utilizado aqui é focado em "descomplicar", removendo processos
+          mirabolantes e focando no que realmente traz resultado rápido e satisfação para a sua cliente.
+        </p>
+        <button class="btn btn-gold w-full" style="justify-content: center; width: 100%; margin-top: auto;"
+          onclick="abrirWhatsApp('Olá Cris! Quero saber mais sobre o Curso VIP para cabeleireiras mulheres!')"
+          aria-label="Inscreva-se aqui">
+          Inscreva-se aqui
+        </button>
       </article>
 
       <!-- Seletiva Intensivo -->

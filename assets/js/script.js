@@ -20,15 +20,17 @@ const WHATSAPP_NUMBER = "5511997260983"; // 🔧 Substitua pelo número real!
  * Adicione ou remova serviços aqui conforme necessário.
  */
 const SERVICOS_DISPONIVEIS = [
-  "Corte Feminino",
-  "Coloração Completa",
-  "Escova Progressiva / Definitiva",
-  "Tratamento Capilar Intensivo",
-  "Mechas & Balayage",
-  "Penteado & Styling",
-  "Corte + Escova",
-  "Hidratação Profunda",
-  "Cauterização Capilar",
+  "Mechas",
+  "Corte e luzes",
+  "Progressiva",
+  "Corte e coloração",
+  "Chanel Nuca Perfeita",
+  "Corte Camadas",
+  "Chanel sem bico",
+  "Pixie Cut",
+  "Mini butterfly",
+  "Butterfly",
+  "Chanel",
 ];
 
 // ─── ESTADO DA APLICAÇÃO ────────────────────────────────────────
